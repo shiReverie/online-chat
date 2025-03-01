@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>chat</title>
+    <link rel="stylesheet" href="stylesheets/StyleSheet1.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="sidebar">
+            <h2>Онлайн:</h2>
+            <ul id="users-list"></ul>
+        </div>
+        <div class="chat-window">
+            <div id="chat-history"></div>
+            <form id="message-form">
+                <input type="text" id="message-input" placeholder="Введите сообщение..." autocomplete="off">
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Модальное окно для выбора ника -->
+    <div id="nickname-modal" class="modal">
+        <div class="modal-content">
+            <h2>Введите ваш ник</h2>
+            <form id="nickname-form">
+                <input type="text" id="nickname-input" placeholder="Ваш ник" required>
+                <button type="submit">Войти в чат</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="javascripts/chat.js"></script>
+</body>
+</html>

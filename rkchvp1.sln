@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "rkchvp1", "rkchvp1.njsproj", "{48C8C14C-5201-475F-A485-2C61D749BBEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48C8C14C-5201-475F-A485-2C61D749BBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C8C14C-5201-475F-A485-2C61D749BBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C8C14C-5201-475F-A485-2C61D749BBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C8C14C-5201-475F-A485-2C61D749BBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6972C042-DE07-474D-91D1-32F83675D329}
+	EndGlobalSection
+EndGlobal
